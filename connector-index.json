@@ -210,7 +210,13 @@
           "heb.orders",
           "heb.nutrition"
         ],
-        "consumerMetadata": null
+        "consumerMetadata": {
+          "sourceId": "heb",
+          "displayName": "H-E-B",
+          "brandDomain": "heb.com",
+          "iconKey": "heb",
+          "defaultScope": "heb.orders"
+        }
       }
     ],
     "icloud-notes-playwright": [
@@ -641,7 +647,16 @@
           "wholefoods.orders",
           "wholefoods.nutrition"
         ],
-        "consumerMetadata": null
+        "consumerMetadata": {
+          "sourceId": "wholefoods",
+          "displayName": "Whole Foods Market",
+          "brandDomain": "wholefoodsmarket.com",
+          "aliases": [
+            "whole foods"
+          ],
+          "iconKey": "wholefoods",
+          "defaultScope": "wholefoods.orders"
+        }
       }
     ],
     "youtube-playwright": [
